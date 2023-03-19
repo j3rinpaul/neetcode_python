@@ -7,3 +7,11 @@ for word in words:
     else:
         groups[sorted_word] = [word]
 print(list(groups.values()))
+
+'''
+algorithm
+declare a dictionary 
+sort the words inside the given list if sorted words in ley of dictionary 
+then append the value list with the word got 
+after the dictionary ends print the values as a list
+'''
