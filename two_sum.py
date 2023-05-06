@@ -1,7 +1,7 @@
 nums = [2,4,3,7]
 target = 9
 '''
-algorithm
+algorithm O(n)
 
 a dictionary is created
 using enumerate function: index and the element is returned
