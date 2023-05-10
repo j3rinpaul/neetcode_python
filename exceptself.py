@@ -15,6 +15,9 @@ for i in range(len(array)-1 ,-1,-1): #loop reverse order
 print(res)
 
 '''
+Given an integer array nums, return an array answer such that 
+answer[i] is equal to the product of all the elements of nums except nums[i].
+
 Algorithm
 
 1. created an array result of length of the input array and fill it with 1
