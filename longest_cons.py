@@ -24,3 +24,31 @@ nums = [1,87,2,3,76,4,77]
 
 print(longestConsecutive(nums=nums))
 
+
+#same with lower complexities
+
+# num_set = set(nums)
+#         longest_seq = 0
+#         for loop in num_set: //here the set is taken for every operation
+#             if loop - 1 not in num_set:
+#                 current_seq = 1
+#                 while loop + current_seq in num_set:
+#                     current_seq += 1
+#                 longest_seq = max(longest_seq, current_seq)
+#         return longest_seq
+
+
+
+
+#  #convert the nums array into a set
+#         longest = 0
+#         nums = set(nums)
+#         for num in nums:
+#             if num - 1 not in nums:
+#                 # we are at start of sequence
+#                 next_num = num + 1
+#                 while next_num in nums:
+#                     next_num += 1
+#                 longest = max(longest, next_num - num)
+#                 #next_num - num returns the difference that is the size 
+#         return longest
